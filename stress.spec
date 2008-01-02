@@ -8,6 +8,7 @@ Group:        System/Kernel and hardware
 Summary:      A tool which imposes a configurable amount of load on your system
 Version:      %version
 Release:      %release
+BuildRoot:    %{_tmppath}/%{name}-buildroot
 Source:       http://weather.ou.edu/~apw/projects/stress/%name-%{version}.tar.bz2
 URL:          http://weather.ou.edu/~apw/projects/stress/
 
