@@ -1,6 +1,6 @@
 %define	name stress
 %define version 0.18.9
-%define release %mkrel 1
+%define release %mkrel 3
 
 Name:         %name
 License:      GPL
