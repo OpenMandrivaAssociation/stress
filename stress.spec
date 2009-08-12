@@ -1,6 +1,6 @@
 %define	name stress
-%define version 0.18.9
-%define release %mkrel 4
+%define version 1.0.1
+%define release %mkrel 1
 
 Name:         %name
 License:      GPL
@@ -9,10 +9,10 @@ Summary:      A tool which imposes a configurable amount of load on your system
 Version:      %version
 Release:      %release
 BuildRoot:    %{_tmppath}/%{name}-buildroot
-Source:       http://weather.ou.edu/~apw/projects/stress/%name-%{version}.tar.bz2
+Source:       http://weather.ou.edu/~apw/projects/stress/%name-%{version}.tar.gz
 URL:          http://weather.ou.edu/~apw/projects/stress/
-
 %description
+
 stress is a tool which imposes a configurable amount of CPU, memory, I/O, or
 disk stress on a POSIX-compliant operating system. It is written in
 highly-portable ANSI C, and uses the GNU Autotools to compile on a great number
