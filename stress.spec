@@ -31,8 +31,6 @@ system is under heavy load.
 %configure
 %make
 
-%preun
-%_remove_install_info %{name}.info
 
 
 %clean
