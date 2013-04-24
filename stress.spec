@@ -34,8 +34,6 @@ system is under heavy load.
 %preun
 %_remove_install_info %{name}.info
 
-%post
-%_install_info %{name}.info
 
 %clean
 rm -rf $RPM_BUILD_ROOT
