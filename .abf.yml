@@ -1,2 +1,4 @@
+removed_sources:
+  stress-1.0.1.tar.gz: 0cfdbb4cf30d14527b05eeaab3775777d48d0b9c
 sources:
-  "stress-1.0.1.tar.gz": 0cfdbb4cf30d14527b05eeaab3775777d48d0b9c
+  stress-1.0.4.tar.gz: 7ccb6d76d27ddd54461a21411f2bc8491ba65168
