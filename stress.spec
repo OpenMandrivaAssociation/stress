@@ -6,7 +6,7 @@ License:      GPL
 Group:        System/Kernel and hardware 
 Summary:      A tool which imposes a configurable amount of load on your system
 Version:      1.0.4
-Release:      1
+Release:      2
 Source0:      http://weather.ou.edu/~apw/projects/stress/%name-%{version}.tar.gz
 URL:          http://weather.ou.edu/~apw/projects/stress/
 
