@@ -1,13 +1,10 @@
-%define	name stress
-%define version 1.0.4
-
-Name:         %name
+Name:         stress
 License:      GPL
 Group:        System/Kernel and hardware 
 Summary:      A tool which imposes a configurable amount of load on your system
-Version:      1.0.4
-Release:      2
-Source0:      http://weather.ou.edu/~apw/projects/stress/%name-%{version}.tar.gz
+Version:      1.0.5
+Release:      1
+Source0:      https://github.com/resurrecting-open-source-projects/stress/archive/refs/tags/%{version}/%{name}-%{version}.tar.gz
 URL:          http://weather.ou.edu/~apw/projects/stress/
 
 %description
@@ -24,14 +21,14 @@ classes of bugs which only or more frequently manifest themselves when the
 system is under heavy load. 
 
 %prep
-%setup
+%autosetup -p1
 
 %build
-%configure2_5x
-%make
+%configure
+%make_build
 
 %install
-%makeinstall_std
+%make_install
 
 %files
 %{_bindir}/stress
