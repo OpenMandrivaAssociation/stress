@@ -24,6 +24,7 @@ system is under heavy load.
 %autosetup -p1
 
 %build
+./autogen.sh
 %configure
 %make_build
 
