@@ -33,5 +33,5 @@ system is under heavy load.
 
 %files
 %{_bindir}/stress
-%{_infodir}/stress.info.*
+#{_infodir}/stress.info.*
 %{_mandir}/man1/*
