@@ -2,7 +2,7 @@ Name:         stress
 License:      GPL
 Group:        System/Kernel and hardware 
 Summary:      A tool which imposes a configurable amount of load on your system
-Version:      1.0.5
+Version:      1.0.7
 Release:      1
 Source0:      https://github.com/resurrecting-open-source-projects/stress/archive/refs/tags/%{version}/%{name}-%{version}.tar.gz
 URL:          http://weather.ou.edu/~apw/projects/stress/
