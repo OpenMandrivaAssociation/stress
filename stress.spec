@@ -7,6 +7,11 @@ Release:      1
 Source0:      https://github.com/resurrecting-open-source-projects/stress/archive/refs/tags/%{version}/%{name}-%{version}.tar.gz
 URL:          https://weather.ou.edu/~apw/projects/stress/
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 %description
 
 stress is a tool which imposes a configurable amount of CPU, memory, I/O, or
